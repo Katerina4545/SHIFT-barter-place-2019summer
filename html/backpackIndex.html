@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/mainIndex.css" />
+    <link rel="stylesheet" href="../css/backpack.css" />
+    <title>Barter Place</title>
+</head>
+
+<body>
+        <header class="header">
+                <img src="../img/icons8-войти-50.png" alt="" class="enter">
+                <center>
+                    <img src="../img/logo.png" alt="" class="logo">
+                    <div class="name">Рюкзак</div>
+                </center>
+                
+            </header>
+    
+    <!--меню -->
+    <hr align="center" color="#000" width="1300px" size="0px" noshade>     
+    <div class="tab">
+        <button class="tablinks" onclick="profile()">профиль</button>
+        <button class="tablinks" onclick="desires()">желания</button>
+        <button class="tablinks" onclick="offers()">предложения</button>        
+        <button class="tablinks" onclick="backpack()">рюкзак</button>
+        <button class="tablinks" onclick="deals()">сделки</button>
+        <button class="tablinks" onclick="myAnswers()">мои ответы</button>
+    </div>    
+    <hr align="center" color="#000" width="1300px" size="0px" noshade>
+    <!--конец меню-->
+
+    <div id="myBackpack" class="backpack"></div>
+
+    <!--кнопка добавить-->
+    <center>
+        <button class="middleButton addThing" type="button">добавить</button>
+    </center>
+    <div class="descriptionOfThing">  
+              
+        <button id="thingClose" class="closeButton" type="button"></button>  
+        <center>
+        <textarea class="nameOfProduct textarea" placeholder="Введите название"></textarea>
+        <textarea class="link textarea" placeholder="вставьте URL картинки"></textarea>
+        <textarea class="textarea discription" placeholder="Опишите продукт"></textarea>
+        
+        <button id="thing" class="smallButton" type="button">добавить</button>
+        </center>
+    </div> 
+    
+    
+    <script src="/js/myJS.js"></script>
+    <script src="/js/myUtils.js"></script>
+    <script src="/js/backpack.js"></script>
+    
+</body>
+</html>

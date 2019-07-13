@@ -1,0 +1,115 @@
+.descriptionOfDesires{
+    display: none;
+    z-index: 2;
+    overflow: visible;  
+    position: absolute;
+    width: 765px;
+    height: 450px;    
+    top: 450px;
+    left: 300px;   
+    margin-bottom: 100px; 
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(230, 205, 116);
+}
+
+.middleButton{
+    position: static;    
+    overflow: visible;
+    z-index: 1;
+    outline: none;
+    top: 910px;
+    margin-bottom: 38px;
+    left: 513px;
+    width: 380px;
+    height: 86px;
+
+    background-color: #B4B3AB;
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+    font-family: Gothic L, sans-serif;
+    color: #000; 
+    cursor: pointer;   
+}
+
+.closeButton{
+    position: absolute;    
+    overflow: visible;
+    outline: none;    
+    width: 66px;
+    height: 48px; 
+    left:20px;
+    top:20px;    
+    background-color:#B4B3AB;
+    border-radius: 30px;
+    border: none; 
+}
+
+.oneThing{
+    display: inline-block;    
+    width: 250px;
+    height: 320px;    
+    margin: 50px;        
+}
+
+.image{    
+    width: 220px;
+    height: 220px;    
+    margin: 15px;    
+    border-radius: 30px;
+    border: none; 
+    box-shadow: 2px 2px 6px 3px rgb(173, 173, 171);
+}
+
+.image:hover{
+    box-shadow: 2px 2px 6px 6px rgba(230, 205, 116, 0.705); 
+}
+
+.smallButton{
+    width: 184px;
+    height: 60px; 
+    outline: none;
+    background-color: #B4B3AB;
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+    font-family: Gothic L, sans-serif;
+    color: #000; 
+    cursor: pointer;  
+}
+
+.textarea{
+    width: 594px;
+    height: 93px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color:#E2DDB0;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    font-family: Gothic L, sans-serif;
+}
+
+.backpack{
+    display: none;
+    z-index: 2;
+    overflow: visible;  
+    position: absolute;
+    width: 770px;
+    height: 450px;    
+    top: 467px;
+    left: 300px;   
+    margin-bottom: 100px; 
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(230, 205, 116);
+}
+
+.addSmallButton{
+    margin-top:30px;
+    text-align: center;
+}

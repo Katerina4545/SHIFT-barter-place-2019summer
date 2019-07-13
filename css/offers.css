@@ -1,0 +1,118 @@
+
+.descriptionOfOffer{
+    display: none;
+    overflow: visible;  
+    position: absolute;
+    width: 765px;
+    height: 360px;    
+    top: 467px;
+    left: 300px;   
+    margin-bottom: 100px; 
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(230, 205, 116);
+}
+
+.middleButton{
+    position: static;    
+    overflow: visible;
+    outline: none;
+    top: 910px;
+    margin-bottom: 38px;
+    left: 513px;
+    width: 380px;
+    height: 86px;
+
+    background-color: #B4B3AB;
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+    font-family: Gothic L, sans-serif;
+    color: #000; 
+    cursor: pointer;   
+}
+
+.closeButton{
+    position: absolute;    
+    overflow: visible;
+    outline: none;
+    top: 20px;
+    left: 20px;
+    width: 66px;
+    height: 48px; 
+    background-color:#B4B3AB;
+    border-radius: 30px;
+    border: none; 
+}
+
+
+.oneThing{
+    display: inline-block;    
+    width: 250px;
+    height: 320px;    
+    margin: 50px;        
+}
+
+.image{    
+    width: 220px;
+    height: 220px;    
+    margin: 15px;    
+    border-radius: 30px;
+    border: none; 
+    box-shadow: 2px 2px 6px 3px rgb(173, 173, 171);
+}
+
+.image:hover{
+    box-shadow: 2px 2px 6px 6px rgba(230, 205, 116, 0.705); 
+}
+
+.smallButton{
+    width: 184px;
+    height: 60px; 
+         
+    background-color: #B4B3AB;
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+    font-family: Gothic L, sans-serif;
+    color: #000; 
+    cursor: pointer;  
+}
+
+.deal{
+    display: none;
+    overflow: visible;  
+    position: absolute;
+    width: 765px;
+    height: 360px;    
+    top: 467px;
+    left: 300px;   
+    margin-bottom: 100px; 
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(230, 205, 116);
+}
+
+.textarea{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(228, 219, 187);
+}
+
+.backpack{
+    display: none;
+    z-index: 2;
+    overflow: visible;  
+    position: absolute;
+    width: 770px;
+    height: 450px;    
+    top: 467px;
+    left: 300px;   
+    margin-bottom: 100px; 
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(230, 205, 116);
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/mainIndex.css" />
+    <link rel="stylesheet" href="../css/offers.css" />
+    <title>Barter Place</title>
+</head>
+
+<body>
+        <header class="header">
+                <img src="../img/icons8-войти-50.png" alt="" class="enter">
+                <center>
+                    <img src="../img/logo.png" alt="" class="logo">
+                    <div class="name">Предложения</div>
+                </center>
+                
+            </header>
+    
+
+     <!--меню -->
+     <hr align="center" color="#000" width="1300px" size="0px" noshade>     
+     <div class="tab">
+         <button class="tablinks" onclick="profile()">профиль</button>
+         <button class="tablinks" onclick="desires()">желания</button>
+         <button class="tablinks" onclick="offers()">предложения</button>        
+         <button class="tablinks" onclick="backpack()">рюкзак</button>
+         <button class="tablinks" onclick="deals()">сделки</button>
+         <button class="tablinks" onclick="myAnswers()">мои ответы</button>
+     </div>    
+     <hr align="center" color="#000" width="1300px" size="0px" noshade>
+     <!--конец меню-->
+
+     <!--предложения пользователей-->
+    <div id="endOfMenu"></div>
+
+    <!--окно "сделка"-->
+    <div class="deal">
+        <button id="change" class="smallButton">обменяться</button>
+        <button id="changeClose" class="closeButton"></button>
+    </div>
+
+    <!--кнопка добавить-->
+    <center>
+        <button class="middleButton addOffer" type="button">добавить</button>
+    </center>
+
+    <!--окно "добавить предложение"-->
+    <div id="myBackpack" class="backpack">
+        <button id="backpackClose" class="closeButton" type="button"></button>
+    </div>
+
+
+
+     <!--пример 
+     <div class="oneThing">
+        <center>
+        <img class="image" src="https://static4.depositphotos.com/1020804/341/i/450/depositphotos_3412498-stock-photo-raspberries.jpg" alt="">
+        <button class="smallButton exchange">обмен</button>
+        </center>  
+    </div>  -->
+    
+
+    <script src="/js/myJS.js"></script>
+    <script src="/js/myUtils.js"></script>
+    <script src="/js/offersGlobal.js"></script>
+    
+</body>
+</html>

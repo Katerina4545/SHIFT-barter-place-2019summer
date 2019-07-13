@@ -1,0 +1,158 @@
+.myDesires{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.myOffers{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.endOfMenu{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.window{
+    display: none;
+    z-index: 2;
+    overflow: visible;  
+    position: absolute;
+    width: 770px;
+    height: 450px;    
+    top: 467px;
+    left: 300px;   
+    margin-bottom: 100px; 
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(230, 205, 116);
+}
+
+.yesOrNo{
+    display: none;
+    z-index: 2;
+    overflow: visible;  
+    position: absolute;
+    width: 300px;
+    height: 300px;    
+    top: 520px;
+    left: 550px;   
+    margin-bottom: 100px; 
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(180, 179, 171, 0.863);
+}
+
+.yesButton{
+    width: 184px;
+    height: 60px; 
+    margin-top: 50px;
+    margin-left:50px;
+    outline: none;
+    background-color: rgb(127, 204, 89);
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+    font-family: Gothic L, sans-serif;
+    color: #000; 
+    cursor: pointer;
+}
+
+.noButton{
+    width: 184px;
+    height: 60px; 
+    margin-top: 50px;
+    margin-left:50px;
+    outline: none;
+    background-color: rgb(221, 147, 50);
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+    font-family: Gothic L, sans-serif;
+    color: #000; 
+    cursor: pointer;
+}
+
+.closeButton{
+    position: absolute;    
+    overflow: visible;
+    outline: none;
+    top: 20px;
+    left: 20px;
+    width: 66px;
+    height: 48px; 
+    margin: 10px;
+    background-color:#B4B3AB;
+    border-radius: 30px;
+    border: none; 
+}
+
+.middleButton{
+    
+    overflow: visible;
+    z-index: 1;
+    outline: none;    
+    margin-bottom: 38px;    
+    width: 380px;
+    height: 86px;
+
+    background-color: #B4B3AB;
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+    font-family: Gothic L, sans-serif;
+    color: #000; 
+    cursor: pointer;   
+}
+
+
+.oneThing{
+    display: inline-block;    
+    width: 250px;
+    height: 320px;    
+    margin: 50px;        
+}
+
+.image{    
+    width: 220px;
+    height: 220px;    
+    margin: 15px;    
+    border-radius: 30px;
+    border: none; 
+    box-shadow: 2px 2px 6px 3px rgb(173, 173, 171);
+}
+
+.image:hover{
+    box-shadow: 2px 2px 6px 6px rgba(230, 205, 116, 0.705); 
+}
+
+.smallButton{
+    width: 184px;
+    height: 60px; 
+    outline: none;
+    background-color: #B4B3AB;
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+    font-family: Gothic L, sans-serif;
+    color: #000; 
+    cursor: pointer;  
+}
+
+.backpack{
+    display: none;
+    z-index: 2;
+    overflow: visible;  
+    position: absolute;
+    width: 770px;
+    height: 450px;    
+    top: 467px;
+    left: 300px;   
+    margin-bottom: 100px; 
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(230, 205, 116);
+}

@@ -1,0 +1,11 @@
+{
+  "name": "example_front-end_project",
+  "version": "1.0.0",
+  "scripts": {
+    "run": "http-server -P https://digital-barter.herokuapp.com/",
+    "browser-sync": "http-server -P https://digital-barter.herokuapp.com/"
+  },
+  "dependencies": {    
+    "browser-sync": "^2.26.7"
+  }
+}
