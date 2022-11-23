@@ -6,6 +6,6 @@
     "browser-sync": "http-server -P https://digital-barter.herokuapp.com/"
   },
   "dependencies": {    
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.27.10"
   }
 }
